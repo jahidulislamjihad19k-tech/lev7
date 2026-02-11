@@ -2512,7 +2512,7 @@ async def level_loop(team_code, key, iv, region):
             
             # Step 3: Wait 28 seconds
             print(f"⏳ Waiting 28 seconds...")
-            await asyncio.sleep(28)
+            await asyncio.sleep(30)
             
             # Step 4: Leave team (1 second)
             print(f"🚪 Leaving team...")
